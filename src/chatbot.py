@@ -13,7 +13,9 @@ class ChatbotManager:
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-flash-latest",
             google_api_key=api_key,
-            temperature=0.3
+            temperature=0.3,
+            streaming=True,
+            max_retries=6  # Increased retries for handling transient 429 errors (RPM)
         )
         
         self.memory = memory
@@ -44,8 +46,38 @@ class ChatbotManager:
         )
 
     def ask(self, query: str):
-        """Asks a question and returns the answer with source documents."""
+        """Asks a question and yields the answer with source documents."""
         logger.info(f"Asking chatbot: {query}")
-        result = self.chain.invoke({"question": query})
-        return result["answer"], result["source_documents"]
+        
+        try:
+            result = self.chain.invoke({"question": query})
+            answer = result["answer"]
+            source_docs = result.get("source_documents", [])
+            
+            # Simulate streaming for the UI to handle smoothly
+            import time
+            for word in answer.split(" "):
+                yield word + " "
+                time.sleep(0.02)
+                
+            yield source_docs
+            
+        except Exception as e:
+            error_str = str(e)
+            logger.error(f"Error calling Gemini API: {error_str}")
+            
+            if "429" in error_str:
+                if "quota" in error_str.lower() or "limit" in error_str.lower():
+                    error_msg = ("⚠️ **Gemini Quota Exceeded.**\n\n"
+                                 "You have reached the daily limit for the Gemini Free Tier. "
+                                 "Please update the `GOOGLE_API_KEY` in your `.env` file with a new key "
+                                 "or wait for the quota to reset.")
+                else:
+                    error_msg = ("⚠️ **Gemini Rate Limit Hit.**\n\n"
+                                 "Too many requests in a short time. Please wait a moment and try again.")
+            else:
+                error_msg = f"⚠️ **An unexpected error occurred:** {error_str}"
+            
+            yield error_msg
+            yield []  # Empty source docs
 

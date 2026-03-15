@@ -1,7 +1,7 @@
 import os
 from typing import List
 from langchain_community.vectorstores import FAISS
-from langchain.schema import Document
+from langchain_core.documents import Document
 from src.utils import logger
 
 class VectorStoreManager:
@@ -13,6 +13,10 @@ class VectorStoreManager:
 
     def create_vector_store(self, chunks: List[Document], save_path: str = "faiss_index"):
         """Creates a FAISS vector store from text chunks and saves it locally."""
+        if not chunks:
+            logger.warning("No document chunks provided. Skipping vector store creation.")
+            return None
+            
         logger.info(f"Creating vector store with {len(chunks)} chunks...")
         self.vector_store = FAISS.from_documents(chunks, self.embeddings)
         self.vector_store.save_local(save_path)

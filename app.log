@@ -423,3 +423,1002 @@ Please retry in 44.057315535s. [links {
   seconds: 44
 }
 ].
+2026-02-26 22:42:20,043 - src.utils - INFO - Loading document: /tmp/tmp8zz_lisx/MINI_PROJECT_1.pdf
+2026-02-26 22:42:31,682 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-26 22:42:31,682 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-26 22:42:31,683 - src.utils - INFO - Created 5 chunks.
+2026-02-26 22:42:31,684 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 22:43:27,472 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 22:43:27,473 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 22:43:46,355 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-02-26 22:43:57,795 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-02-26 22:43:59,393 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-26 22:43:59,592 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 22:43:59,594 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 22:43:59,596 - src.utils - ERROR - Environment variable GOOGLE_API_KEY is not set.
+2026-02-26 22:44:57,246 - src.utils - INFO - Loading document: /tmp/tmpqf_tfxi6/MINI_PROJECT_1.pdf
+2026-02-26 22:44:57,357 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-26 22:44:57,357 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-26 22:44:57,357 - src.utils - INFO - Created 5 chunks.
+2026-02-26 22:44:57,358 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 22:44:57,359 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 22:44:57,359 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 22:45:02,949 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-02-26 22:45:03,748 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 22:45:03,748 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 22:45:03,749 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-02-26 22:45:43,658 - src.utils - INFO - Asking chatbot: Title of theproject?
+2026-02-26 22:56:48,899 - src.utils - INFO - Loading document: /tmp/tmpxal4j4vn/MiniProject.pdf
+2026-02-26 22:56:50,019 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-26 22:56:50,020 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-26 22:56:50,020 - src.utils - INFO - Created 5 chunks.
+2026-02-26 22:56:50,021 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 22:57:03,859 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 22:57:03,859 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 22:57:10,797 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-02-26 22:57:11,506 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-02-26 22:57:11,552 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-26 22:57:11,635 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 22:57:11,635 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 22:57:11,639 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-02-26 22:58:00,498 - src.utils - INFO - Asking chatbot: title of the project
+2026-02-26 22:58:23,214 - src.utils - INFO - Asking chatbot: extract of the project
+2026-02-26 22:58:39,523 - src.utils - INFO - Asking chatbot: objective of the project
+2026-02-26 22:58:56,640 - src.utils - INFO - Asking chatbot: objective of the project
+2026-02-26 22:59:24,794 - src.utils - INFO - Loading document: /tmp/tmpup5vmzm6/MINI_PROJECT_1.pdf
+2026-02-26 22:59:24,901 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-26 22:59:24,901 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-26 22:59:24,901 - src.utils - INFO - Created 5 chunks.
+2026-02-26 22:59:24,901 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 22:59:24,903 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 22:59:24,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 22:59:34,033 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-02-26 22:59:34,437 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 22:59:34,437 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 22:59:34,437 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-02-26 22:59:58,115 - src.utils - INFO - Asking chatbot: title of the project
+2026-02-26 23:00:11,418 - src.utils - INFO - Asking chatbot: extract of the project
+2026-02-26 23:00:42,133 - src.utils - INFO - Asking chatbot: objective of the project
+2026-02-26 23:03:18,698 - src.utils - INFO - Loading document: /tmp/tmptwoo98ds/MiniProject.pdf
+2026-02-26 23:03:18,813 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-26 23:03:18,813 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-26 23:03:18,814 - src.utils - INFO - Created 5 chunks.
+2026-02-26 23:03:18,814 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 23:03:18,816 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 23:03:18,816 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 23:03:37,493 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 29c0db0a-1359-49bb-b16c-ddd3240c1d63)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json
+2026-02-26 23:03:37,493 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-02-26 23:03:48,615 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 1ae5998a-92d7-4776-814e-0aaddfc975b3)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json
+2026-02-26 23:03:48,615 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-02-26 23:04:09,844 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: c92c6178-08ec-44ac-a541-8f2ebdffd553)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json
+2026-02-26 23:04:09,845 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-02-26 23:04:27,478 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: d36a51f7-3e3f-4fa1-8656-4b60a43e1e72)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-02-26 23:04:27,479 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-02-26 23:05:07,293 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-02-26 23:05:08,270 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 23:05:08,270 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 23:05:08,271 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-02-26 23:22:20,104 - src.utils - INFO - Loading document: /tmp/tmpgkbh9adh/MINI_PROJECT_1.pdf
+2026-02-26 23:22:20,344 - src.utils - INFO - Loading document: /tmp/tmpgkbh9adh/SE-FORMAT(1).pdf
+2026-02-26 23:22:22,180 - src.utils - INFO - Loaded 68 pages from 2 documents.
+2026-02-26 23:22:22,181 - src.utils - INFO - Splitting 68 documents into chunks...
+2026-02-26 23:22:22,190 - src.utils - INFO - Created 93 chunks.
+2026-02-26 23:22:22,191 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-02-26 23:22:26,128 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-02-26 23:22:26,129 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-26 23:22:33,813 - src.utils - INFO - Creating vector store with 93 chunks...
+2026-02-26 23:22:54,192 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-02-26 23:22:54,249 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-26 23:22:54,291 - src.utils - INFO - Vector store saved to faiss_index.
+2026-02-26 23:22:54,293 - src.utils - INFO - Initializing MemoryManager...
+2026-02-26 23:22:54,296 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-02-26 23:24:24,768 - src.utils - INFO - Asking chatbot: Tech Stack used in "AI Multi-Document Chatbot with Memory using RAG" project
+2026-02-26 23:25:58,932 - src.utils - INFO - Asking chatbot: Tech Stack used in project "A Universal Reasoning Agent"?
+2026-02-26 23:26:39,909 - src.utils - INFO - Asking chatbot: Tech Stack used in the project "AI Multi-Document Chatbot with Memory using RAG"?
+2026-02-26 23:29:34,274 - src.utils - INFO - Asking chatbot: Extract UML class Diagram used in project "A Universal Reasoning Agent"?
+2026-02-26 23:31:09,806 - src.utils - INFO - Asking chatbot: problem statement of the project "A Universal Reasoning Agent"?
+2026-02-26 23:31:13,265 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 46.832724178s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+].
+2026-02-26 23:32:05,343 - src.utils - INFO - Asking chatbot: clear
+2026-02-26 23:32:10,877 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 49.165998629s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 49
+}
+].
+2026-02-26 23:32:25,219 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 34.828825041s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 34
+}
+].
+2026-02-26 23:32:31,015 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 29.027950436s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 29
+}
+].
+2026-02-26 23:32:39,565 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 20.563551555s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 20
+}
+].
+2026-02-26 23:32:56,400 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 3.762096416s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 3
+}
+].
+2026-02-27 10:59:54,834 - src.utils - INFO - Loading document: /tmp/tmppfbgdssl/MINI_PROJECT_1.pdf
+2026-02-27 11:00:04,024 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-02-27 11:00:04,024 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-02-27 11:00:04,026 - src.utils - INFO - Created 5 chunks.
+2026-02-27 11:00:04,027 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-02 11:44:11,853 - src.utils - INFO - Loading document: /tmp/tmpys4o9px1/MINI_PROJECT_1.pdf
+2026-03-02 11:44:21,467 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-02 11:44:21,468 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-02 11:44:21,469 - src.utils - INFO - Created 5 chunks.
+2026-03-02 11:44:21,470 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-02 11:46:38,229 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-02 11:46:38,248 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-02 11:47:03,297 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-02 11:47:13,074 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 11:47:21,944 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 11:47:26,774 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-02 11:47:26,775 - src.utils - INFO - Initializing MemoryManager...
+2026-03-02 11:47:27,000 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-02 11:50:24,199 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-02 11:56:58,663 - src.utils - INFO - Asking chatbot: Tech Stack of the project?
+2026-03-02 11:57:27,804 - src.utils - INFO - Asking chatbot: Probelm Staement of the staement?
+2026-03-02 11:59:20,460 - src.utils - INFO - Asking chatbot: IEEE resources for this project?
+2026-03-03 15:18:28,981 - src.utils - INFO - Loading document: /tmp/tmptpzp4udo/India_AI_Impact_2026_(2).pdf
+2026-03-03 15:18:32,942 - src.utils - INFO - Loaded 15 pages from 1 documents.
+2026-03-03 15:18:32,944 - src.utils - INFO - Splitting 15 documents into chunks...
+2026-03-03 15:18:32,947 - src.utils - INFO - Created 0 chunks.
+2026-03-03 15:18:32,949 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-03 15:20:10,361 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-03 15:20:10,361 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:20:36,873 - src.utils - INFO - Creating vector store with 0 chunks...
+2026-03-03 15:20:37,470 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-03 15:20:38,787 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-03 15:35:56,869 - src.utils - WARNING - No document chunks provided. Skipping vector store creation.
+2026-03-03 15:46:08,533 - src.utils - INFO - Loading document: /tmp/tmp33x66u64/India_AI_Impact_2026_(2).pdf
+2026-03-03 15:46:08,606 - src.utils - INFO - Loaded 15 pages from 1 documents.
+2026-03-03 15:46:08,607 - src.utils - INFO - Splitting 15 documents into chunks...
+2026-03-03 15:46:08,607 - src.utils - INFO - Created 0 chunks.
+2026-03-03 15:46:28,617 - src.utils - INFO - Loading document: /tmp/tmp9yqtqe1a/India_AI_Impact_2026_(2).pdf
+2026-03-03 15:46:28,702 - src.utils - INFO - Loading document: /tmp/tmp9yqtqe1a/MiniProject.pdf
+2026-03-03 15:46:30,461 - src.utils - INFO - Loaded 19 pages from 2 documents.
+2026-03-03 15:46:30,461 - src.utils - INFO - Splitting 19 documents into chunks...
+2026-03-03 15:46:30,462 - src.utils - INFO - Created 5 chunks.
+2026-03-03 15:46:30,463 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-03 15:46:30,474 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-03 15:46:30,474 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:46:37,080 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-03 15:46:43,506 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-03 15:46:43,507 - src.utils - INFO - Initializing MemoryManager...
+2026-03-03 15:46:43,510 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-03 15:56:32,405 - src.utils - INFO - Loading document: /tmp/tmp2efwldzq/MiniProject.pdf
+2026-03-03 15:56:32,556 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-03 15:56:32,556 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-03 15:56:32,557 - src.utils - INFO - Created 5 chunks.
+2026-03-03 15:56:32,557 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-03 15:56:32,559 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-03 15:56:32,559 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:56:40,884 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-03 15:56:41,915 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-03 15:56:41,915 - src.utils - INFO - Initializing MemoryManager...
+2026-03-03 15:56:41,916 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-03 15:59:25,582 - src.utils - INFO - Loading document: /tmp/tmp6gu3sn1c/MiniProject.pdf
+2026-03-03 15:59:25,781 - src.utils - INFO - Loading document: /tmp/tmp6gu3sn1c/Computer Networks Unit-1 (1).pdf
+2026-03-03 15:59:29,398 - src.utils - INFO - Loaded 108 pages from 2 documents.
+2026-03-03 15:59:29,398 - src.utils - INFO - Splitting 108 documents into chunks...
+2026-03-03 15:59:29,405 - src.utils - INFO - Created 111 chunks.
+2026-03-03 15:59:29,405 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-03 15:59:29,409 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-03 15:59:29,410 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:59:36,188 - src.utils - INFO - Creating vector store with 111 chunks...
+2026-03-03 15:59:52,780 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-03 15:59:52,780 - src.utils - INFO - Initializing MemoryManager...
+2026-03-03 15:59:52,780 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-03 16:01:26,551 - src.utils - INFO - Asking chatbot:  What is Computer Network?
+2026-03-07 10:59:48,973 - src.utils - INFO - Loading document: /tmp/tmpsg7v5hib/MiniProject.pdf
+2026-03-07 10:59:50,006 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 10:59:50,006 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 10:59:50,007 - src.utils - INFO - Created 5 chunks.
+2026-03-07 10:59:50,007 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 10:59:54,102 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 10:59:54,102 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:00:02,176 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:00:03,089 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-07 11:00:03,233 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-07 11:00:03,394 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:00:03,395 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:00:03,395 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:00:21,015 - src.utils - INFO - Asking chatbot: Tech Stack used in the project?
+2026-03-07 11:09:16,157 - src.utils - INFO - Loading document: /tmp/tmpd3xtp_gv/MiniProject.pdf
+2026-03-07 11:09:16,574 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 11:09:16,574 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 11:09:16,575 - src.utils - INFO - Created 5 chunks.
+2026-03-07 11:09:16,575 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:09:16,946 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:09:16,946 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:09:28,546 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:09:30,099 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:09:30,099 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:09:30,100 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:20:16,946 - src.utils - INFO - Loading document: /tmp/tmpwbal7k76/Resume (2).pdf
+2026-03-07 11:20:17,364 - src.utils - INFO - Loading document: /tmp/tmpwbal7k76/MiniProject.pdf
+2026-03-07 11:20:17,446 - src.utils - INFO - Loaded 5 pages from 2 documents.
+2026-03-07 11:20:17,448 - src.utils - INFO - Splitting 5 documents into chunks...
+2026-03-07 11:20:17,449 - src.utils - INFO - Created 7 chunks.
+2026-03-07 11:20:17,450 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:20:32,057 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:20:32,058 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:20:38,672 - src.utils - INFO - Creating vector store with 7 chunks...
+2026-03-07 11:20:43,642 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-07 11:20:43,807 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-07 11:20:43,850 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:20:43,851 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:20:43,852 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:21:42,849 - src.utils - INFO - Asking chatbot: Tech stack used in the Project
+2026-03-07 11:22:28,667 - src.utils - INFO - Asking chatbot: IEEE references used in the project
+2026-03-07 11:23:00,475 - src.utils - INFO - Asking chatbot: Carrer Objective of the person
+2026-03-07 11:23:37,907 - src.utils - INFO - Asking chatbot: Technical skills of the person
+2026-03-07 11:24:01,600 - src.utils - INFO - Asking chatbot: What is the name of the person
+2026-03-07 11:24:23,010 - src.utils - INFO - Asking chatbot: Achivements of the person
+2026-03-07 11:28:45,676 - src.utils - INFO - Asking chatbot: Problem Statement of the project
+2026-03-07 11:30:47,163 - src.utils - INFO - Loading document: /tmp/tmpsluo3um3/MiniProject.pdf
+2026-03-07 11:30:48,364 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 11:30:48,364 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 11:30:48,365 - src.utils - INFO - Created 5 chunks.
+2026-03-07 11:30:48,365 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:30:55,487 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:30:55,487 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:31:06,350 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:31:06,803 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-07 11:31:06,946 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-07 11:31:06,959 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:31:06,960 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:31:06,960 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:31:11,973 - src.utils - INFO - Asking chatbot: TItle of the project?
+2026-03-07 11:31:34,984 - src.utils - INFO - Asking chatbot: Tech Stack Used in the Project?
+2026-03-07 11:32:03,826 - src.utils - INFO - Asking chatbot: Objective of the project?
+2026-03-07 11:33:04,804 - src.utils - INFO - Asking chatbot: IEEE resources used in the project
+2026-03-07 11:39:28,765 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:39:52,014 - src.utils - INFO - Loading document: /tmp/tmpfyxrhxhi/MiniProject.pdf
+2026-03-07 11:39:52,174 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 11:39:52,174 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 11:39:52,174 - src.utils - INFO - Created 5 chunks.
+2026-03-07 11:39:52,175 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:39:54,729 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:39:54,729 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:40:02,942 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:40:03,659 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-07 11:40:03,716 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-07 11:40:04,175 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:40:04,176 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:40:41,022 - src.utils - INFO - Asking chatbot: Hi ! My name is Hemanth Kumar. I need to know the title of the project?
+2026-03-07 11:40:43,126 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 17.046395411s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 17
+}
+].
+2026-03-07 11:41:19,575 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:41:19,578 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:42:44,869 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-07 11:42:46,465 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 13.351222229s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 13
+}
+].
+2026-03-07 11:45:17,439 - src.utils - INFO - Loading document: /tmp/tmpqxwinpgs/MiniProject.pdf
+2026-03-07 11:45:17,670 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 11:45:17,671 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 11:45:17,672 - src.utils - INFO - Created 5 chunks.
+2026-03-07 11:45:17,672 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:45:21,891 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:45:21,892 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:45:30,492 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:45:31,074 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-07 11:45:31,124 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-07 11:45:31,140 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:45:31,144 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:45:31,152 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:45:47,123 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-07 11:45:49,620 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 10.527897048s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 10
+}
+].
+2026-03-07 11:45:51,814 - src.utils - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 7.97531024s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2026-03-07 11:47:10,890 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-07 11:47:11,642 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 48.451303432s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2026-03-07 11:47:14,393 - src.utils - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 46.031585828s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2026-03-07 11:49:46,516 - src.utils - INFO - Initializing MemoryManager...
+2026-03-07 11:50:32,929 - src.utils - INFO - Loading document: /tmp/tmp8neq023b/MiniProject.pdf
+2026-03-07 11:50:33,100 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-07 11:50:33,101 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-07 11:50:33,102 - src.utils - INFO - Created 5 chunks.
+2026-03-07 11:50:33,103 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-07 11:50:33,108 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-07 11:50:33,109 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:50:41,790 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-07 11:50:42,513 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-07 11:50:42,514 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-07 11:51:00,292 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-07 11:51:01,062 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. .
+2026-03-07 11:51:03,303 - src.utils - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+2026-03-08 11:08:18,511 - src.utils - INFO - Loading document: /tmp/tmpsei9q369/MiniProject.pdf
+2026-03-08 11:08:19,065 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-08 11:08:19,065 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-08 11:08:19,066 - src.utils - INFO - Created 5 chunks.
+2026-03-08 11:08:19,066 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 11:08:22,917 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 11:08:35,896 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 11:08:35,896 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 11:08:37,634 - src.utils - INFO - Loading document: /tmp/tmpln3d2153/MiniProject.pdf
+2026-03-08 11:08:37,771 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-08 11:08:37,771 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-08 11:08:37,771 - src.utils - INFO - Created 5 chunks.
+2026-03-08 11:08:37,772 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 11:08:37,776 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 11:08:37,777 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 11:08:44,515 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-08 11:08:45,847 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-08 11:08:48,033 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 11:08:48,617 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 11:08:48,712 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 11:08:48,713 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 11:08:48,714 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 11:09:48,599 - src.utils - INFO - Asking chatbot: Tech Stack of the project?
+2026-03-08 11:09:49,923 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. .
+2026-03-08 11:09:52,148 - src.utils - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+2026-03-08 12:46:08,478 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 12:46:51,386 - src.utils - INFO - Loading document: /tmp/tmpqk0j6ixp/MiniProject.pdf
+2026-03-08 12:46:51,858 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-08 12:46:51,859 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-08 12:46:51,861 - src.utils - INFO - Created 5 chunks.
+2026-03-08 12:46:51,862 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 12:47:09,289 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 12:47:09,289 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 12:47:17,845 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-08 12:47:21,007 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 12:47:21,610 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 12:47:21,714 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 12:47:21,716 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 12:47:42,915 - src.utils - INFO - Asking chatbot: Tech stack of the project?
+2026-03-08 12:47:44,492 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. .
+2026-03-08 12:47:47,664 - src.utils - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+2026-03-08 13:03:02,278 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 13:03:20,101 - src.utils - INFO - Loading document: /tmp/tmpwqzbusm8/MINI_PROJECT_1.pdf
+2026-03-08 13:03:21,277 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-08 13:03:21,280 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-08 13:03:21,282 - src.utils - INFO - Created 5 chunks.
+2026-03-08 13:03:21,283 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 13:04:20,217 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 13:04:20,218 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 13:04:59,915 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 5e838751-4ff8-4075-acfd-0b1820946a08)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json
+2026-03-08 13:04:59,916 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-08 13:05:15,091 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-08 13:05:16,436 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 13:05:16,518 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 13:05:16,638 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 13:05:16,640 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:05:32,713 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-08 13:05:48,325 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 13:05:48,329 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:06:05,394 - src.utils - INFO - Asking chatbot: Tech stack used in the project?
+2026-03-08 13:06:30,706 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 13:06:30,709 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:07:32,685 - src.utils - INFO - Asking chatbot: Hey , I am Hemanth and i want to know the IEEE resources used in the Project?
+2026-03-08 13:07:44,625 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:07:49,287 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:08:00,632 - src.utils - INFO - Asking chatbot: Tell me what is my name?
+2026-03-08 13:10:37,926 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 13:10:41,120 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 15:04:06,288 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 15:04:18,795 - src.utils - INFO - Loading document: /tmp/tmp6p8xfpes/Transformer.pdf
+2026-03-08 15:04:19,587 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-08 15:04:19,593 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-08 15:04:19,598 - src.utils - INFO - Created 33 chunks.
+2026-03-08 15:04:19,602 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 15:04:40,155 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 15:04:40,156 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 15:04:53,809 - src.utils - INFO - Creating vector store with 33 chunks...
+2026-03-08 15:05:00,413 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 15:05:01,036 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 15:05:01,116 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 15:05:01,141 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 15:05:57,151 - src.utils - INFO - Asking chatbot: key concepts mentioned in the document?
+2026-03-08 15:15:16,343 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 15:16:41,455 - src.utils - INFO - Loading document: /tmp/tmpl2u8syzc/Transformer.pdf
+2026-03-08 15:16:51,252 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 15:16:54,516 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-08 15:16:54,518 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-08 15:16:54,522 - src.utils - INFO - Created 33 chunks.
+2026-03-08 15:16:54,523 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 15:17:14,391 - src.utils - INFO - Loading document: /tmp/tmplvjaxj0o/Transformer.pdf
+2026-03-08 15:17:14,730 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-08 15:17:14,731 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-08 15:17:14,734 - src.utils - INFO - Created 33 chunks.
+2026-03-08 15:17:14,734 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 15:17:45,685 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 15:17:45,685 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 15:17:45,687 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-03-08 15:17:45,691 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 15:17:58,739 - src.utils - INFO - Creating vector store with 33 chunks...
+2026-03-08 15:18:09,431 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 15:18:12,184 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 15:18:12,493 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 15:21:51,783 - src.utils - INFO - Loading document: /tmp/tmp3ov58guu/Transformer.pdf
+2026-03-08 15:21:52,065 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-08 15:21:52,066 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-08 15:21:52,068 - src.utils - INFO - Created 33 chunks.
+2026-03-08 15:21:52,069 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 15:21:52,071 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 15:29:41,773 - src.utils - INFO - Loading document: /tmp/tmpe614b_10/Transformer.pdf
+2026-03-08 15:29:43,209 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-08 15:29:43,210 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-08 15:29:43,214 - src.utils - INFO - Created 33 chunks.
+2026-03-08 15:29:43,215 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-08 15:30:07,156 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-08 15:30:15,356 - src.utils - INFO - Creating vector store with 33 chunks...
+2026-03-08 15:30:19,100 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-08 15:30:19,141 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-08 15:30:19,157 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-08 15:30:19,159 - src.utils - INFO - Initializing MemoryManager...
+2026-03-08 15:30:19,161 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-08 15:31:02,003 - src.utils - INFO - Asking chatbot: Key concepts  of transformer?
+2026-03-08 15:31:35,979 - src.utils - INFO - Asking chatbot: Key concepts mentioned in the document?
+2026-03-08 15:31:55,787 - src.utils - INFO - Asking chatbot: Title of the document?
+2026-03-09 14:17:52,972 - src.utils - INFO - Loading document: /tmp/tmp1qty87ja/MINI_PROJECT_1.pdf
+2026-03-09 14:18:12,867 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-09 14:18:12,871 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-09 14:18:12,873 - src.utils - INFO - Created 5 chunks.
+2026-03-09 14:18:12,873 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-09 14:19:03,218 - src.utils - INFO - Initializing MemoryManager...
+2026-03-09 14:19:10,361 - src.utils - INFO - Loading document: /tmp/tmp5yciypr1/MINI_PROJECT_1.pdf
+2026-03-09 14:19:10,622 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-09 14:19:10,623 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-09 14:19:10,626 - src.utils - INFO - Created 5 chunks.
+2026-03-09 14:19:10,627 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-09 14:20:44,141 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-09 14:20:44,143 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-09 14:21:04,650 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-09 14:21:04,658 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-09 14:21:13,923 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-09 14:21:15,238 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-09 14:21:15,527 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-09 14:21:15,536 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-09 14:21:16,694 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-09 14:30:23,330 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-09 14:41:18,804 - src.utils - INFO - Loading document: /tmp/tmpwrki0r4y/MINI_PROJECT_1.pdf
+2026-03-09 14:41:20,471 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-09 14:41:20,471 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-09 14:41:20,473 - src.utils - INFO - Created 5 chunks.
+2026-03-09 14:41:20,475 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-09 14:42:18,288 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-09 14:42:29,884 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-09 14:42:34,941 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-09 14:42:37,343 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-09 14:42:37,665 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-09 14:42:37,668 - src.utils - INFO - Initializing MemoryManager...
+2026-03-09 14:42:37,671 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-09 14:43:12,643 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-09 14:43:17,374 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised InternalServerError: 500 Internal error encountered..
+2026-03-09 14:44:21,769 - src.utils - INFO - Asking chatbot: Tech stack used in the project?
+2026-03-11 10:22:31,212 - src.utils - INFO - Loading document: /tmp/tmpzyzcsnwx/MiniProject.pdf
+2026-03-11 10:22:44,340 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-11 10:22:44,341 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-11 10:22:44,342 - src.utils - INFO - Created 5 chunks.
+2026-03-11 10:22:44,343 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 10:23:07,734 - src.utils - INFO - Initializing MemoryManager...
+2026-03-11 10:23:20,035 - src.utils - INFO - Loading document: /tmp/tmpswk3w_n4/MiniProject.pdf
+2026-03-11 10:23:20,177 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-11 10:23:20,178 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-11 10:23:20,179 - src.utils - INFO - Created 5 chunks.
+2026-03-11 10:23:20,179 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 10:24:51,832 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 10:24:51,841 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 10:24:51,973 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5817f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: cf6eda70-9882-4b11-bfe6-5079aee556f7)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:51,974 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff581850>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 88d13280-9bea-4861-a1da-e89d37b7b7c6)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:51,974 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:24:51,975 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:24:52,985 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff581670>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: f7effda8-9d80-4461-89ed-89d8ea356416)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:52,986 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:24:52,989 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff581520>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 13febefe-469e-4746-94eb-c65b43fd2a45)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:52,990 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:24:54,991 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff610730>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 3edf71ec-289e-43cf-9464-52ea42cb5607)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:54,992 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:24:54,996 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e28b0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 99b4733b-03c8-420f-b359-ffd1f9443d24)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:54,997 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:24:59,005 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2ca0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: cb06c095-1cb1-42dd-945d-ae4d18ed52f2)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:59,006 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:24:59,008 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e20a0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: d048255e-ebd8-4efa-b8e0-1fc0feb77279)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:24:59,008 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:25:07,022 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2d60>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 4d0f68a3-1443-4d36-83a6-6bb37789b99b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:25:07,024 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:25:07,024 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff62da90>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 99eaae36-6c5f-4c0b-8e0a-2505fa0c6d62)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:25:07,026 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:25:15,051 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5edaf0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 1cd4f939-112a-44a7-af87-fb2bfcb57ac1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:25:15,055 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5ed910>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 17b70589-04eb-4ff7-a41d-2e05b9279a54)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:25:15,120 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff581970>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 4fdf3210-9fc2-4473-8c2e-039c9b098015)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:15,123 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:25:15,122 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5817f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: cac9427d-a2b9-49bb-9f6f-655d63f85a98)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:15,129 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:25:16,134 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff610610>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 54d5ed51-696b-4637-8d57-e8f196de7e15)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:16,135 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:25:16,142 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2730>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: e51e63c1-a509-4b30-ad88-b91e1fd5b00f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:16,143 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:25:18,146 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5f2c40>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: d0e98770-2d54-489c-963f-31611182629a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:18,153 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:25:18,155 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e22e0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 2ea2799c-3cef-410b-bd0e-ddc24a100069)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:18,156 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:25:22,162 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2640>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 9c370d3f-e32a-41ca-9952-ed37f4673038)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:22,163 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:25:22,166 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2880>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: cf3af74c-a77f-4972-8253-cca0b6442567)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:22,166 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:25:30,177 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2c70>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: faf0f1f3-604c-46a8-9c8d-74a7a24ebd37)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:30,177 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:25:30,186 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e21f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: a35fdbac-5d19-48cc-8baf-10ec2901f891)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:25:30,188 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:26:01,711 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: d164e50a-921b-4d38-bd93-ef3820b57be9)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:01,711 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:26:01,761 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: c10c1fef-b7f3-4eeb-9edd-ef18c4cee9cd)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:01,761 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:26:12,802 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: b0a33524-d177-42ba-9cf4-c00574ee007e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:12,803 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:26:19,707 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 50b6a9c5-ffe5-4a3b-b16e-a6a6a40fcb88)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:19,707 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:26:21,732 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff546340>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: baef065b-2976-42d6-bd45-9ffe884481f7)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:21,735 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:26:25,744 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff508220>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 1d6c5b43-b8e0-4d37-ab82-13d63a74c0f8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:25,745 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:26:26,862 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: f7e2a6af-dc16-489c-8707-b39b8026f8a4)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:26,869 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:26:30,878 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff546fa0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 24785b77-9aab-48ff-ae12-3561a687cccb)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:30,880 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:26:33,758 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff4d1f40>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: f263f305-78e7-4cfe-8637-c2249d38076c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:33,758 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:26:38,892 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff508280>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 0d2fead8-c463-4066-9291-d2671b5e6699)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:38,892 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:26:41,777 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff3e0670>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 26595a1c-185f-4090-9248-cd1353496e3a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:46,453 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff55ce80>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: eb7d9087-f578-4643-ad1a-b8ba5fea8d7e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:46,454 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:26:46,907 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff508790>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 2f207788-f565-4189-a554-7223f68496f3)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-03-11 10:26:47,112 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5f2eb0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: bc3f1947-dff9-49ff-b8ba-dffcb1b0b0de)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:47,112 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:26:47,460 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5f2fd0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 01ed84e2-dd4c-48a9-a2df-0fc37b439fb4)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:47,460 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:26:48,120 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff3e01f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 1ce37969-ff4b-4481-a94f-880c4a04af11)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:48,121 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:26:49,475 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff3e0850>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: b8c26b00-4c65-4d85-aacc-cde745d14a4a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:49,475 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:26:50,144 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff3e0c10>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 66a84af0-fdc2-4af7-891c-655c6524800e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:50,147 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:26:53,488 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5bc9a0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 873b74b4-7928-42cf-a510-217b4672b582)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:53,490 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:26:54,159 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cda28f760>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 6df1703e-3bf0-4085-beed-4fc41967f811)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:26:54,160 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:27:01,504 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5bc670>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 05de008d-0e4e-49db-b740-518a008933c3)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:27:01,505 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:27:02,173 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5e2280>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: b6b6f245-96ce-4131-8c26-325806ff1087)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:27:02,173 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:27:09,522 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5ed3a0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 62b7de01-ae89-45e5-a136-924d61d16f24)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:27:09,623 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-11 10:27:10,191 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5087c0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 69f57c28-6f0d-45a4-ad92-af7388462d96)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json
+2026-03-11 10:27:28,604 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-11 10:27:29,212 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-11 10:27:29,417 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-11 10:34:54,072 - src.utils - INFO - Loading document: /tmp/tmpwsd615et/MINI_PROJECT_1.pdf
+2026-03-11 10:34:54,331 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-11 10:34:54,332 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-11 10:34:54,334 - src.utils - INFO - Created 5 chunks.
+2026-03-11 10:34:54,335 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 10:34:54,337 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 10:35:19,362 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff581100>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 62beb4ce-f813-4ab3-aaa3-3773e7e2c07f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:35:19,363 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:35:40,385 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff5edac0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: e63afbcd-3d2b-4386-9c20-aa840464fa2a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:35:40,386 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:36:02,408 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff546c40>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 6d4f0415-936d-45c0-ae0d-7183d8deec67)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:36:02,408 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:36:35,641 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-11 10:36:38,205 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-11 10:36:38,220 - src.utils - INFO - Initializing MemoryManager...
+2026-03-11 10:36:38,221 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:37:04,012 - src.utils - INFO - Asking chatbot: Title of the project?
+2026-03-11 10:37:18,749 - src.utils - INFO - Initializing MemoryManager...
+2026-03-11 10:37:18,753 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:37:54,681 - src.utils - INFO - Asking chatbot: Hey, My Name is Hemanth and i just want to know the tech stack used in the project?
+2026-03-11 10:38:17,405 - src.utils - INFO - Asking chatbot: Hey, Do you Remember my name?
+2026-03-11 10:38:30,227 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:40:01,159 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:40:24,129 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:42:08,942 - src.utils - INFO - Asking chatbot: System Architecture Used in the project?
+2026-03-11 10:43:54,860 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:43:56,815 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:44:02,933 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:44:16,261 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 10:45:35,550 - src.utils - INFO - Loading document: /tmp/tmpwevrwotl/MINI_PROJECT_1.pdf
+2026-03-11 10:45:35,712 - src.utils - INFO - Loaded 4 pages from 1 documents.
+2026-03-11 10:45:35,712 - src.utils - INFO - Splitting 4 documents into chunks...
+2026-03-11 10:45:35,713 - src.utils - INFO - Created 5 chunks.
+2026-03-11 10:45:35,714 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 10:45:35,718 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 10:45:35,725 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eb4670>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 35bb4574-2aa3-4f36-8a54-a34b28d8f4fc)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:35,729 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:45:36,738 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cff49cb20>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 647988d9-e46c-45b9-9fcb-15a31d85b732)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:36,739 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:45:38,748 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cc8c796a0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 088ad5da-2369-4c3a-b842-fb0badd32a6d)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:38,749 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:45:42,756 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eaa2b0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 72d43832-cac6-4327-878d-b0cc449ebc67)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:42,756 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:45:50,771 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eb4ee0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 15e12ca1-2003-46c8-a391-96e12c1b7a7f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:50,771 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:45:58,786 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4ea06d0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: f78f005a-9865-421a-9c47-60ab8ac7d799)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 10:45:58,792 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4d09e50>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: b1141b2b-f993-4997-b909-3eeaebc6c59f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:45:58,792 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:45:59,799 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eaa1c0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 3a90d34e-50c9-4447-b8bb-b245dc432f16)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:45:59,800 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-11 10:46:01,809 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eaad60>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 158899f1-993b-4fc7-9618-86ecc53e77a9)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:46:01,810 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-11 10:46:05,820 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eaaa00>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 0929ef24-4244-4a41-a97e-0a59ccf35803)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:46:05,821 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-11 10:46:13,836 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4d0f5b0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: cf03eefa-7d52-46af-979b-b5ebd142212c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:46:13,836 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-11 10:46:21,851 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4eaa340>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 7cf9bd5b-b83e-4a32-bb7f-1d51f9b29bc2)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:46:21,859 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7e4cf4d09c40>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: 0ec72757-f50f-40a7-8382-1da68dbc7b0b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-11 10:46:21,859 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 10:46:27,890 - src.utils - INFO - Creating vector store with 5 chunks...
+2026-03-11 10:46:29,389 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-11 10:46:29,390 - src.utils - INFO - Initializing MemoryManager...
+2026-03-11 10:46:29,391 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 11:14:08,776 - src.utils - INFO - Loading document: /tmp/tmp9az3jb24/enterprise_startup_policy_dataset_55_pages.pdf
+2026-03-11 11:14:10,542 - src.utils - INFO - Loaded 111 pages from 1 documents.
+2026-03-11 11:14:10,543 - src.utils - INFO - Splitting 111 documents into chunks...
+2026-03-11 11:14:10,588 - src.utils - INFO - Created 551 chunks.
+2026-03-11 11:14:10,589 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 11:14:10,844 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 11:14:42,398 - src.utils - INFO - Creating vector store with 551 chunks...
+2026-03-11 11:15:57,981 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-11 11:15:57,983 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 11:17:10,351 - src.utils - INFO - Asking chatbot: Hey, This is Hemanth and i just to want to know Health and Safety Standards Mentioned in the Document?
+2026-03-11 11:18:29,946 - src.utils - INFO - Asking chatbot: Workplace Harrasement Prevention?
+2026-03-11 11:48:25,857 - src.utils - INFO - Loading document: /tmp/tmp5lidq3sv/Transformer.pdf
+2026-03-11 11:48:26,505 - src.utils - INFO - Loaded 33 pages from 1 documents.
+2026-03-11 11:48:26,505 - src.utils - INFO - Splitting 33 documents into chunks...
+2026-03-11 11:48:26,508 - src.utils - INFO - Created 33 chunks.
+2026-03-11 11:48:26,509 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-11 11:48:26,514 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-11 11:48:36,531 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 12f2df85-32b6-4e11-b6d6-5aa38e762f2c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-11 11:48:36,532 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-11 11:49:15,823 - src.utils - INFO - Creating vector store with 33 chunks...
+2026-03-11 11:49:21,965 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-11 11:49:21,967 - src.utils - INFO - Initializing MemoryManager...
+2026-03-11 11:49:21,969 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-11 11:51:18,144 - src.utils - INFO - Asking chatbot: Outline of the document?
+2026-03-11 11:52:04,594 - src.utils - INFO - Asking chatbot: What is Attention Mechanism?
+2026-03-11 11:53:14,007 - src.utils - INFO - Asking chatbot: What is MulitHead Attention?
+2026-03-12 09:30:24,300 - src.utils - INFO - Loading document: /tmp/tmpn7nf057c/NovaTech_Policy_Handbook.pdf
+2026-03-12 09:30:34,486 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-12 09:30:34,486 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-12 09:30:34,497 - src.utils - INFO - Created 68 chunks.
+2026-03-12 09:30:34,499 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-12 09:31:36,208 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-12 09:31:56,022 - src.utils - INFO - Creating vector store with 68 chunks...
+2026-03-12 09:32:20,070 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-12 09:32:33,997 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-12 09:32:34,799 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-12 09:32:34,801 - src.utils - INFO - Initializing MemoryManager...
+2026-03-12 09:32:34,900 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-12 09:33:53,510 - src.utils - INFO - Asking chatbot: AI Tools & Data Privacy of NOVATECH SOLUTIONS PVT. LTD.?
+2026-03-12 09:35:24,045 - src.utils - INFO - Asking chatbot: Health & Wellness Benefits?
+2026-03-12 09:35:55,973 - src.utils - INFO - Asking chatbot: Paid Time Off (PTO)?
+2026-03-12 09:36:37,858 - src.utils - INFO - Asking chatbot: Leadership Structure?
+2026-03-12 11:49:51,911 - src.utils - INFO - Loading document: /tmp/tmpdrzy_5zt/NovaTech_Policy_Handbook.pdf
+2026-03-12 11:49:57,543 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-12 11:49:57,543 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-12 11:49:57,548 - src.utils - INFO - Created 68 chunks.
+2026-03-12 11:49:57,549 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-12 11:52:30,868 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-12 11:52:50,967 - src.utils - INFO - Creating vector store with 68 chunks...
+2026-03-12 11:53:38,775 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-12 11:53:41,584 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-12 11:53:43,458 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-12 11:53:43,461 - src.utils - INFO - Initializing MemoryManager...
+2026-03-12 11:53:43,512 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-12 12:00:26,469 - src.utils - INFO - Asking chatbot: Leadership Structure of the company?
+2026-03-12 12:08:43,014 - src.utils - INFO - Asking chatbot: Employment Policies of the comapny?
+2026-03-12 12:09:18,785 - src.utils - INFO - Asking chatbot: Employment Classification of the comapny?
+2026-03-12 12:09:37,341 - src.utils - INFO - Asking chatbot: Employment Classification of the company?
+2026-03-12 12:32:45,400 - src.utils - INFO - Loading document: /tmp/tmpc3p0snyv/NovaTech_Policy_Handbook.pdf
+2026-03-12 12:32:49,716 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-12 12:32:49,717 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-12 12:32:49,724 - src.utils - INFO - Created 48 chunks.
+2026-03-12 12:32:49,725 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-12 12:33:12,070 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-12 12:33:25,873 - src.utils - INFO - Creating vector store with 48 chunks...
+2026-03-12 12:33:34,513 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-12 12:33:34,996 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-12 12:33:35,271 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-12 12:33:35,273 - src.utils - INFO - Initializing MemoryManager...
+2026-03-12 12:33:35,275 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-12 12:33:42,651 - src.utils - INFO - Asking chatbot: Employment Classification used by the company?
+2026-03-12 12:34:27,696 - src.utils - INFO - Asking chatbot: Working Hours & Attendance used by the company?
+2026-03-12 12:34:49,468 - src.utils - INFO - Loading document: /tmp/tmp6mp4xb65/NovaTech_Policy_Handbook.pdf
+2026-03-12 12:34:51,625 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-12 12:34:51,626 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-12 12:34:51,630 - src.utils - INFO - Created 48 chunks.
+2026-03-12 12:34:51,631 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-12 12:34:51,635 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-12 12:35:02,498 - src.utils - INFO - Creating vector store with 48 chunks...
+2026-03-12 12:35:11,261 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-13 10:32:20,949 - src.utils - INFO - Loading document: /tmp/tmpoz3gh4w_/NovaTech_Policy_Handbook.pdf
+2026-03-13 10:32:31,615 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-13 10:32:31,616 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-13 10:32:31,621 - src.utils - INFO - Created 48 chunks.
+2026-03-13 10:32:31,623 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-13 10:33:38,297 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-13 10:34:00,637 - src.utils - INFO - Creating vector store with 48 chunks...
+2026-03-13 10:34:20,054 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-13 10:34:21,648 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-13 10:34:21,882 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-13 10:34:21,884 - src.utils - INFO - Initializing MemoryManager...
+2026-03-13 10:34:21,888 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-13 10:37:12,798 - src.utils - INFO - Asking chatbot: Work Location Arrangements of the company?
+2026-03-13 10:38:48,703 - src.utils - INFO - Asking chatbot: Policy Review & Amendments of the company?
+2026-03-13 10:58:57,240 - src.utils - INFO - Asking chatbot: Approved External AI Tools of the company?
+2026-03-13 11:05:00,425 - src.utils - INFO - Loading document: /tmp/tmp2q932z30/NovaTech_Policy_Handbook.pdf
+2026-03-13 11:05:02,274 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-13 11:05:02,275 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-13 11:05:02,278 - src.utils - INFO - Created 48 chunks.
+2026-03-13 11:05:02,279 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-13 11:05:02,282 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-13 11:06:08,693 - src.utils - INFO - Creating vector store with 48 chunks...
+2026-03-13 11:06:16,734 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-13 11:06:16,735 - src.utils - INFO - Initializing MemoryManager...
+2026-03-13 11:06:16,736 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-13 11:07:33,166 - src.utils - INFO - Asking chatbot: Performance Review Cycle of the company?
+2026-03-13 11:08:57,965 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised DeadlineExceeded: 504 Deadline Exceeded.
+2026-03-13 11:23:17,641 - src.utils - INFO - Loading document: /tmp/tmpxt7n6yuq/NovaTech_Policy_Handbook.pdf
+2026-03-13 11:23:36,398 - src.utils - INFO - Loaded 29 pages from 1 documents.
+2026-03-13 11:23:36,398 - src.utils - INFO - Splitting 29 documents into chunks...
+2026-03-13 11:23:36,403 - src.utils - INFO - Created 48 chunks.
+2026-03-13 11:23:36,404 - src.utils - INFO - Initializing EmbeddingManager with model: all-MiniLM-L6-v2
+2026-03-13 11:24:45,132 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-13 11:25:16,103 - src.utils - INFO - Creating vector store with 48 chunks...
+2026-03-13 11:25:24,751 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-13 11:25:25,322 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-13 11:25:25,433 - src.utils - INFO - Vector store saved to faiss_index.
+2026-03-13 11:25:25,435 - src.utils - INFO - Initializing MemoryManager...
+2026-03-13 11:25:25,460 - src.utils - INFO - Initializing ChatbotManager with Gemini...
+2026-03-13 11:25:29,521 - src.utils - INFO - Asking chatbot: Performance Review Cycle of the company?
+2026-03-13 11:25:52,081 - src.utils - INFO - Asking chatbot: Resignation of the company?
