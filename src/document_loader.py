@@ -1,7 +1,7 @@
 import os
 from typing import List
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.schema import Document
+from langchain_core.documents import Document
 from src.utils import logger
 
 class PDFLoader:
